@@ -1,0 +1,23 @@
+h1, p {
+    text-align: center;
+    background-color: yellow;
+  }
+  
+  body {
+    background-color: green;
+  }
+  
+  form {
+    color: yellow;
+    width: 50%;
+    padding: 20px;
+    max-width: 500px;
+    min-width: 300px;
+    font-size: larger;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }

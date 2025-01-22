@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">National Sport Survey</h1>
+    <p id="description">What's <strong>your</strong> favorite sport?</p>
+    <form id="survey-form">
+      <label id="name-label" for="name">Enter your name:
+        <input id="name" type="text" placeholder="name" required>
+      </label>
+      <label id="email-label" for="email">Enter your email:
+        <input id="email" type="email" placeholder="email" required>
+      </label>
+      <label id="number-label" for="number">Enter your age:
+        <input id="number" type="number" placeholder="age" required min="16" max="120">
+      </label>
+      <label for="dropdown">Favorite sport?
+        <select id="dropdown">
+          <option>Football</option>
+          <option>Baseball</option>
+          <option>Soccer</option>
+          <option>Basketball</option>
+        </select>
+      </label>
+      <div> How many days a week do you play your favorite sport?
+        <label> 0<input id="name" name="days" value="days" type="radio"></label>
+        <label> 1+<input id="name" name="days" value="days" type="radio"></label>
+        <label> 3+<input id="name" name="days" value="days" type="radio"></label>
+      </div>
+      <div>
+          <label> Can we contact you with more questions if needed?</label> <label> Yes<input value="value" type="checkbox"></label><label> No<input value="value" type="checkbox"></label>
+      </div>
+      <div>
+        <label>Comments: </label>
+        <textarea></textarea>
+      </div>
+      <label>
+        <button id="submit">Submit</submit>
+      </label>
+    </form>
+  </body>
+</html>
