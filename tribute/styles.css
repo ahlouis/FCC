@@ -1,0 +1,43 @@
+
+html {
+    display: block;
+    background-color: teal;
+}
+
+.head {
+    margin: 10px;
+}
+figcaption {
+     justify-content: center;
+     text-align: center;
+}
+
+#image {
+    display: block;                
+    max-width: 100%;                
+    height: auto;                   
+    margin: 0 auto;  
+    justify-content: center;        
+}
+
+main {
+    background-color: teal;
+    color: white;
+    font-family: Times New Roman;
+}
+
+h1 {
+    font-family: Times New Roman;
+}
+
+.years {
+    font-family: Brush Script MT;
+    font-size: large;
+}
+p, h1 {
+    text-align: center;
+}
+
+p {
+    margin-bottom: 50px;
+}
